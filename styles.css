@@ -3,13 +3,14 @@ body {
     font-size: 20px;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 header {
+    font-size: 25px;
     background: url("elec.jpeg");
     background-repeat: no-repeat;
-    height: 180px;
+    height: 1rem 250px;
     background-size: cover;
     color: #fff;
     padding: 1rem 0;
@@ -17,7 +18,7 @@ header {
 }
 
 nav ul {
-    background: #0056c5;
+    background: #014db0;
     color: #fff;
     display: flex;
     justify-content: center;
