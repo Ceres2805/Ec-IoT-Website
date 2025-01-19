@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1rem 20px;
     line-height: 1.5;
     margin: 0;
     padding: 20px;
 }
 
 header {
-    font-size: 25px;
+    font-size: 1rem 25px;
     background: url("elec.jpeg");
     background-repeat: no-repeat;
     height: 1rem 250px;
@@ -41,7 +41,7 @@ main {
 }
 
 footer {
-    background: #006eff;
+    background: #014db0;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
