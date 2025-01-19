@@ -7,7 +7,10 @@ body {
 }
 
 header {
-    background: #006eff;
+    background: url("elec.jpg");
+    background-repeat: no-repeat;
+    height: 180px;
+    background-size: cover;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
