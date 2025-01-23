@@ -1,7 +1,7 @@
 /* Hero/Title Section Styling */
 .hero-section {
     position: relative;
-    background: url('images/hero-background.jpg') no-repeat center center;
+    background: url('images/bg2.jpg') no-repeat center center;
     background-size: cover;
     height: 300px; /* Consistent height for all titles */
     display: flex;

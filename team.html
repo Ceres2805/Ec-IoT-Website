@@ -9,9 +9,13 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8eccf8;">
         <div class="container">
-            <a class="navbar-brand" href="#">Electronics & IoT Club</a>
+            <!-- Logo and Club Name -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/club-logo.png" alt="Club Logo" style="height: 40px; margin-right: 10px;">
+                Electronics & IoT Club
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,22 +29,41 @@
             </div>
         </div>
     </nav>
+    
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>Meet Our Team</h1>
+            <p>Dedicated to promoting innovation and collaboration</p>
+        </div>
+    </header>
+    
 
     <!-- Team Section -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-primary text-center mb-4">Meet Our Team</h2>
             <div class="row">
-                <div class="col-md-4 text-center">
-                    <img src="images/john-doe.jpg" alt="John Doe" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-                    <h5>John Doe</h5>
-                    <p>President - Robotics and IoT Specialist</p>
+                <div class="col-md-3 text-center">
+                    <div class="card">
+                    <img src="images/abc.jpg" alt="John Doe" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5>ABC</h5>
+                    <p>ABC - ABC</p>
+                    </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <img src="images/jane-smith.jpg" alt="Jane Smith" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-                    <h5>Jane Smith</h5>
-                    <p>Vice President - Expert in Embedded Systems</p>
+                <div class="col-md-3 text-center">
+                    <div class="card">
+                    <img src="images/def.jpg" alt="Jane Smith" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5>DEF</h5>
+                    <p>DEF - DEF</p>
+                    </div>
                 </div>
+                <div class="col-md-3 text-center">
+                    <div class="card">
+                    <img src="images/abc.jpg" alt="John Doe" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5>ABC</h5>
+                    <p>ABC - ABC</p>
+                    </div>
+                </div>                
             </div>
         </div>
     </section>

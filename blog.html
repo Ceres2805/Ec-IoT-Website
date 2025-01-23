@@ -9,9 +9,13 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
         <div class="container">
-            <a class="navbar-brand" href="#">Electronics & IoT Club</a>
+            <!-- Logo and Club Name -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/club-logo.png" alt="Club Logo" style="height: 40px; margin-right: 10px;">
+                Electronics & IoT Club
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,14 +29,21 @@
             </div>
         </div>
     </nav>
+    
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Insights, tutorials, and stories from the world of IoT</p>
+        </div>
+    </header>    
 
     <!-- Blog Section -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-primary text-center mb-4">Our Blog</h2>
             <div class="row">
                 <!-- Blog Post 1 -->
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="images/intro-to-arduino.jpg" class="card-img-top" alt="Intro to Arduino">
                         <div class="card-body">
@@ -43,7 +54,7 @@
                     </div>
                 </div>
                 <!-- Blog Post 2 -->
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="images/understanding-iot.jpg" class="card-img-top" alt="Understanding IoT">
                         <div class="card-body">
@@ -54,7 +65,7 @@
                     </div>
                 </div>
                 <!-- Blog Post 3 -->
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="images/robotics-for-beginners.jpg" class="card-img-top" alt="Robotics for Beginners">
                         <div class="card-body">
@@ -65,7 +76,7 @@
                     </div>
                 </div>
                 <!-- Blog Post 4 -->
-                <div class="col-md-6 mb-4">
+                <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="images/esp32-vs-arduino.jpg" class="card-img-top" alt="ESP32 vs Arduino">
                         <div class="card-body">
