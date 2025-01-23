@@ -4,36 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Electronics and IoT Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Our Blog</h1>
-        <hr style="height:4px;width:10%;color:#fff;background-color:#fff">
-        <h5>Blog posts contributed by the electronics community</h5>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Electronics & IoT Club</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <article>
-                <h3>Intro to Arduino</h3>
-                <p>A beginner's guide to getting started with Arduino development.</p>
-            </article>
-            <article>
-                <h3>Understanding IoT</h3>
-                <p>Exploring the world of IoT and its applications.</p>
-            </article>
-        </section>
-    </main>
-    <footer>
+
+    <!-- Blog Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-primary text-center mb-4">Our Blog</h2>
+            <div class="row">
+                <!-- Blog Post 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/intro-to-arduino.jpg" class="card-img-top" alt="Intro to Arduino">
+                        <div class="card-body">
+                            <h5 class="card-title">Intro to Arduino</h5>
+                            <p class="card-text">A beginner's guide to getting started with Arduino development, exploring its potential for IoT projects.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/understanding-iot.jpg" class="card-img-top" alt="Understanding IoT">
+                        <div class="card-body">
+                            <h5 class="card-title">Understanding IoT</h5>
+                            <p class="card-text">Dive into the world of IoT, learning about its applications, challenges, and how it transforms our daily lives.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/robotics-for-beginners.jpg" class="card-img-top" alt="Robotics for Beginners">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotics for Beginners</h5>
+                            <p class="card-text">Learn the basics of robotics, including motor control, sensors, and integrating IoT technologies for automation.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/esp32-vs-arduino.jpg" class="card-img-top" alt="ESP32 vs Arduino">
+                        <div class="card-body">
+                            <h5 class="card-title">ESP32 vs Arduino</h5>
+                            <p class="card-text">Compare the features, pros, and cons of ESP32 and Arduino boards for your next electronics project.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
         <p>© 2024 Electronics and IoT Club. All Rights Reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
