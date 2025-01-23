@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronics and IoT Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Electronics & IoT Club</h1>
-        <hr style="height:4px;width:10%;color:#fff;background-color:#fff">
-        <h5>Innovating electronics and IoT on campus</h5>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Electronics & IoT Club</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Want to know how a computer works, or how to design a weird circuit? Well, this is the place for you! </p>
-            <p>The Electronics and IoT Club is a community of electronics hobbyists and enthusiasts within IIT Dhanbad.
-                 We conduct various events and sessions through out the year to bring out the techie in you.</p>
-        </section>
-        <section>
-            <h2>Get Involved</h2>
-            <p>Join us in creating innovative projects using Arduino, ESP32, and more.</p>
-        </section>
-        <section>
-            <h2>Vision</h2>
-            <p>The Electronics Club envisions to nurture your engineering maturity by giving you practical and
-                 hands on exposure. We aim to fill in the void of Electronics hobbyists in the institute by
-                  providing a platform where the theory learnt in classes can be applied in the real world.</p>
-        </section>
-    </main>
-    <footer>
+
+    <!-- Hero Section -->
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="text-primary">Welcome to Electronics and IoT Club</h1>
+            <p class="lead text-dark">Innovating electronics and IoT on campus</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-primary text-center mb-4">Our Mission</h2>
+            <p class="text-center">We aim to promote electronics and IoT within the campus, while also exploring robotics and related technologies. Join us as we build innovative projects using Arduino, ESP32, and more!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
         <p>© 2024 Electronics and IoT Club. All Rights Reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
