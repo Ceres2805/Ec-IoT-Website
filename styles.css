@@ -9,7 +9,7 @@
     align-items: center;
     color: white;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for better readability */
-    text-align: center;
+    text-align:center;
 }
 
 .hero-section h1 {
@@ -20,3 +20,4 @@
 .hero-section p {
     font-size: 1.2rem;
 }
+
